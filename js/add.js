@@ -29,7 +29,7 @@ async function addStore(e) {
         }
 
         alert('Store added')
-        window.location.href = './index.html'
+        window.location.href = '/'
     } catch (err) {
         alert(err)
         return
