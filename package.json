@@ -1,0 +1,22 @@
+{
+  "name": "nodegeojsonapiapp",
+  "version": "1.0.0",
+  "description": "- svakog dana u svakom pogledu sve vise napredujem :)",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Stefan Ljiljak",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18",
+    "node-geocoder": "^3.27.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
