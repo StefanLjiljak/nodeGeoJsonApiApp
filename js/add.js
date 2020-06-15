@@ -29,7 +29,7 @@ async function addStore(e) {
         }
 
         alert('Store added')
-        window.location.href = '/'
+        window.location.href = '/nodeGeoJsonApiApp/'
     } catch (err) {
         alert(err)
         return
